@@ -1,3 +1,5 @@
+package lab1;
+
 import javafx.scene.transform.MatrixType;
 
 import java.util.Arrays;
@@ -214,12 +216,12 @@ public class ArrayUtility {
 
 
     public static void main(String[] args) {
-        //int[] A = {1, 3, 4, 6, 7, 9, 11, 13, 24, 45, 56, 67, 78, 78, 123, 145};
+        int[] A = {1, 3, 4, 6, 7, 9, 11, 13, 24, 45, 56, 67, 78, 78, 123, 145};
         //int[] A = createRandomArray(7, 0, 25);
-        int[] A = {1, 1, 2, 3, 3, 5, 5, 7, 7, 7, 9};
+        //int[] A = {1, 1, 2, 3, 3, 5, 5, 7, 7, 7, 9};
 
         System.out.println(Arrays.toString(A));
-        //System.out.println(findInSortedArray(A, 7));
+        System.out.println(findInSortedArray(A, 7));
         //System.out.println(findInArray(A, 7));
         //System.out.println(findFirstInSortedArrary(A, 5));
 
